@@ -5,4 +5,19 @@
         height: 100vh;
         width: 200px;
         background-color: blue;
+        align-content: center;
+    }
+
+    .buttonContainer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .buttonContainer button {
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: blueviolet;
     }

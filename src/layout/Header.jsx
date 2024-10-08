@@ -1,7 +1,11 @@
+import styles from "../assets/css/Sidebar.module.css"
 const Header = () => {
- 
     return (
-        <h1>Hello, Wolrd!</h1>
+       <>
+       <div className={styles.header} >
+        <h1>Olá , Fulano</h1>
+       </div>
+       </>
     )
     
 }

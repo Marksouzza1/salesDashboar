@@ -5,7 +5,11 @@ const Sidebar = () => {
     return (
         <>
         <div className={styles.sidebar}>
-        <button></button>
+        <div className={styles.buttonContainer}>
+            <button>Dashboard</button>
+            <button>Clientes</button>
+            <button>Produtos</button>
+        </div>
 
         </div>
         </>
