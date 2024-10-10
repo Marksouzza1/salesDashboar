@@ -1,0 +1,9 @@
+.header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 210px;
+    width: calc(100% - 250px);
+    height: 120px;
+    border-bottom: dotted 4px;
+}

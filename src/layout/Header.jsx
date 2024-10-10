@@ -1,9 +1,12 @@
-import styles from "../assets/css/Sidebar.module.css"
+import styles from "../assets/css/Header.module.css"
 const Header = () => {
     return (
        <>
        <div className={styles.header} >
-        <h1>Olá , Fulano</h1>
+        <div className={styles.headerContainer} >
+            <h1>Bem vindo</h1>
+            <h2>Sair</h2>
+        </div>
        </div>
        </>
     )
