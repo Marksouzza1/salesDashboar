@@ -13,8 +13,8 @@ const Sidebar = () => {
                     className={location.pathname === '/dashboard' ? styles.active : ''}
                     onClick={() => navigate('/dashboard')}
                 >Dashboard</button>
-            <button className={location.pathname === '/Customers' ? styles.active : ''}
-                 onClick={() => navigate('/Customers')}>Clientes</button>
+            <button className={location.pathname === '/customerForm' ? styles.active : ''}
+                 onClick={() => navigate('/customerForm')}>Clientes</button>
             <button className={location.pathname === '/produtos' ? styles.active : ''}
                  onClick={() => navigate('/produtos')}>Produtos</button>
         </div>
